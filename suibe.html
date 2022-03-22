@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color:#7b8c6d;
+        }
+        .container{
+            width:1200px;
+            margin:0 auto;
+            background-color:#e1c6c7;
+        }
+/* 标题 */
+        .header{
+            background-color:#7b8c6d;
+            /* margin-bottom:10px; */
+            position:fixed;
+            width:100%;
+            top:0;
+        }
+        .header .container{
+            height:40px;
+        }
+        .flexbox{
+            display: flex;
+            justify-content: space-between;
+            height:40px;
+            width: 1200px;
+            background-color: #bdbaca;
+        }
+        .tittle{
+            background-color:#e1c6c7ef;
+            width:300px;
+        }
+        .xiangmu{
+            width:50px;
+        }
+
+
+
+/* 板块1 */
+        .body{
+            background-color:#7b8c6d;
+            margin-bottom:10px;
+            top:300px;
+        }
+        .body .container{
+            background-color:#beb8a4;
+            height:1500px;
+            margin-top:50px;
+            margin-bottom: 50px;
+        }
+        .left{
+            width:600px;
+            background-color:#667c75ab;
+            height:300px;
+        }
+        .right{
+            width:290px;
+            background-color:#3f4d48;
+            height:300px;
+            margin-bottom: 10px;
+        }
+        .part1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .part1-2{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            flex-direction: row-reverse;
+        }
+
+
+
+/* 板块2 */
+        .top{
+            width:500px;
+            background-color:#667c75ab;
+            height:50px;
+            margin-bottom: 10px;
+        }
+
+        .bottom{
+            width:500px;
+            background-color:#3f4d48de;
+            height:50px;
+            margin-bottom: 1px;
+        }
+        .part2{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+
+
+/* 板块3 */
+        .top1{
+            width:300px;
+            background-color:#667c75ab;
+            height:50px;
+            margin-bottom: 10px;
+        }
+        .bottom1{
+            width:300px;
+            background-color:#eedde873;
+            height:50px;
+            margin-bottom: 1px;
+        }
+        .zheng32{
+            width:300px;
+            height:250px;
+            background-color:#eedde873;
+            margin-bottom: 20px;
+        }
+        .zheng33{
+            width:150px;
+            background-color:#eedde873;
+            height:50px;
+            margin-bottom: 1px;
+        }
+        .part33{
+            display: flex;
+            justify-content:flex-start;
+            margin-bottom: 50px;
+
+        }
+        .part3333{
+            margin-left:1px;
+        }
+        .part3{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .start{
+            height: 50px;
+            background-color:#bfbaca;
+        }
+        .more{
+            height: 50px;
+            background-color:#bfbaca;
+            width:500px;
+        }
+        .end{
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+
+/* 页脚 */
+        .footer{
+            clear:both;
+            background-color:#7b8c6d;
+            margin-bottom:10px;
+        }
+        .footer .container{
+            background-color:#e1c6c7bb;
+            height:100px;
+        }
+
+/* 追踪点 */
+        .goback{
+            position: fixed;
+            width:80px;
+            height:80px;
+            background-color: rgb(119, 159, 194);
+            right:0px;
+            bottom:80px;
+            border-radius:50%;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+    <div class="header">
+        <div class="container">
+            
+            <div class="flexbox">
+                <div class="tittle">suibe</div>
+                <div class="xinagmu"></div>
+                <div class="xiangmu">1</div>
+                <div class="xiangmu">2</div>
+                <div class="xiangmu">3</div>
+                <div class="xiangmu">4</div>
+                <div class="xiangmu">5</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="container">
+            <div class="start">校园要闻</div>
+            <div class="part1">
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="right"></div>
+            </div>
+            <div class="part1-2">
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="right"></div>
+            </div>
+
+            <div class="part2">
+                <div class="part22">
+                            <div class="top">新闻快讯</div>
+                            <div class="bottom"></div>
+                            <div class="bottom"></div>
+                            <div class="bottom"></div>
+                            <div class="bottom"></div>
+                </div>
+                <div class="part22">
+                    <div class="top">媒体报道</div>
+                    <div class="bottom"></div>
+                    <div class="bottom"></div>
+                    <div class="bottom"></div>
+                    <div class="bottom"></div>
+                </div>
+            </div>
+
+            <div class="part3">
+                <div class="part3-1">
+                    <div class="top1">科研动态</div>
+                    <div class="bottom1"></div>
+                    <div class="bottom1"></div>
+                    <div class="bottom1"></div>
+                    <div class="bottom1"></div>
+                    <div class="bottom1"></div>
+                </div>
+                <div class="part3-2">
+                    <div class="top1">精彩影像</div>
+                    <div class="zheng32">
+                    <!-- <div class="top1"></div> -->
+                    </div>
+                </div>
+                <div class="part3-3">
+                    <div class="top1">专题网站</div>
+                    <div class="part33">
+                        <div class="part333">
+                            <div class="zheng33"></div>
+                            <div class="zheng33"></div>
+                            <div class="zheng33"></div>
+                            <div class="zheng33"></div>
+                            <div class="zheng33"></div>
+                        </div>
+                        <div class="part3333">
+                            <div class="zheng33"></div>
+                            <div class="zheng33"></div>
+                            <div class="zheng33"></div>
+                            <div class="zheng33"></div>
+                            <div class="zheng33"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="end">
+                <div class="more">更多</div>
+                <div class="more">更多</div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container"></div>
+    </div>
+
+    <div class="goback"></div>
+</body>
+</html> 

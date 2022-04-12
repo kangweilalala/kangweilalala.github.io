@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>suibe</title>
     <style>
         body{
             margin:0;
@@ -12,26 +12,24 @@
             background-color:#7b8c6d;
         }
         .container{
-            width:1200px;
+            width:90%;
             margin:0 auto;
             background-color:#e1c6c7;
+
         }
 /* 标题 */
         .header{
             background-color:#7b8c6d;
-            /* margin-bottom:10px; */
             position:fixed;
             width:100%;
             top:0;
         }
-        .header .container{
-            height:40px;
-        }
         .flexbox{
             display: flex;
+            flex:auto;
             justify-content: space-between;
             height:40px;
-            width: 1200px;
+            width:100%;
             background-color: #bdbaca;
         }
         .tittle{
@@ -52,24 +50,31 @@
         }
         .body .container{
             background-color:#beb8a4;
-            height:1500px;
+            height:1520px;
             margin-top:50px;
             margin-bottom: 50px;
         }
         .left{
-            width:600px;
+            width:50%;
             background-color:#667c75ab;
             height:300px;
         }
-        .right{
-            width:290px;
+        .right1{
+            width:50%;
             background-color:#3f4d48;
             height:300px;
             margin-bottom: 10px;
         }
+        .right{
+            display: flex;
+            flex:auto;
+            /* justify-content: space-between; */
+            gap:10px;
+        }
         .part1{
             display: flex;
             justify-content: space-between;
+            flex:auto;
             margin-top: 20px;
             margin-bottom: 10px;
         }
@@ -84,78 +89,94 @@
 
 /* 板块2 */
         .top{
-            width:500px;
+            width:100%;
             background-color:#667c75ab;
             height:50px;
             margin-bottom: 10px;
         }
 
         .bottom{
-            width:500px;
+            width:100%;
             background-color:#3f4d48de;
             height:50px;
-            margin-bottom: 1px;
+            margin-bottom: 5px;
         }
         .part2{
             display: flex;
-            justify-content: space-around;
+            /* flex:auto; */
+            gap:20px;
+            /* justify-content: space-between; */
             margin-bottom: 50px;
+        }
+        .part22{
+            flex:auto;
         }
 
 
 
 /* 板块3 */
         .top1{
-            width:300px;
+            width:100%;
             background-color:#667c75ab;
             height:50px;
             margin-bottom: 10px;
         }
         .bottom1{
-            width:300px;
+            width:100%;
             background-color:#eedde873;
             height:50px;
             margin-bottom: 1px;
         }
         .zheng32{
-            width:300px;
-            height:250px;
+            width:100%;
+            height:254px;
             background-color:#eedde873;
             margin-bottom: 20px;
         }
         .zheng33{
-            width:150px;
+            width:99%;
             background-color:#eedde873;
             height:50px;
             margin-bottom: 1px;
+            gap:1px;
         }
+        .part3-1{flex:auto;}
+        .part3-2{flex:auto;}
+        .part3-3{flex:auto;}
+
         .part33{
             display: flex;
             justify-content:flex-start;
             margin-bottom: 50px;
 
         }
-        .part3333{
-            margin-left:1px;
+        .part333{
+            flex:auto;
         }
         .part3{
             display: flex;
-            justify-content: space-around;
+            flex:auto;
+            gap:20px;
+            justify-content: space-between;
             margin-bottom: 20px;
         }
 
         .start{
             height: 50px;
-            background-color:#bfbaca;
+            background-color:#667c75ab;
+;
         }
         .more{
             height: 50px;
-            background-color:#bfbaca;
+            background-color:#667c75ab;
+;
             width:500px;
         }
         .end{
             display: flex;
-            justify-content: space-around;
+            flex:auto;
+            gap:20px;
+            justify-content: space-between;
         }
 
 
@@ -189,7 +210,6 @@
 
 <body>
     <div class="header">
-        <div class="container">
             
             <div class="flexbox">
                 <div class="tittle">suibe</div>
@@ -200,7 +220,6 @@
                 <div class="xiangmu">4</div>
                 <div class="xiangmu">5</div>
             </div>
-        </div>
     </div>
 
     <div class="body">
@@ -208,13 +227,17 @@
             <div class="start">校园要闻</div>
             <div class="part1">
                 <div class="left"></div>
-                <div class="right"></div>
-                <div class="right"></div>
+                <div class="right">
+                    <div class="right1"></div>
+                    <div class="right1"></div>
+                </div>
             </div>
             <div class="part1-2">
                 <div class="left"></div>
-                <div class="right"></div>
-                <div class="right"></div>
+                <div class="right">
+                    <div class="right1"></div>
+                    <div class="right1"></div>
+                </div>
             </div>
 
             <div class="part2">
@@ -259,7 +282,7 @@
                             <div class="zheng33"></div>
                             <div class="zheng33"></div>
                         </div>
-                        <div class="part3333">
+                        <div class="part333">
                             <div class="zheng33"></div>
                             <div class="zheng33"></div>
                             <div class="zheng33"></div>

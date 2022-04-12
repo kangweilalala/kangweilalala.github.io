@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100%;
+    margin:0 auto;  
+    background-color:#123455;
+    padding:50px  30px ; 
+}
+.bg{
+    background-image:url("IMAGE/繁星.jpg");
+    background-size:cover;
+    background-position: 100%;
+    height:100%;
+    font-size:500px;
+    font-weight: bold;
+    text-align: center;
+    position:relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    /* overflow: hidden; */
+    /* padding-bottom:500px; */
+    padding-bottom: 200px;
+  }
+
+/* .bg::before{
+    content:"";
+    background-image: inherit;
+    background-size: cover;
+    background-position: 50% 50%;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index: -99; */
+/* } */
+h2{
+    position:relative;
+    top:20px;
+    width:100%;
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing:15px;
+    font-size: x large;
+    color:#adc4dbcb;  
+}
+h1{
+    position:relative;
+    /* top:145vh; */
+    left:50%;
+    transform:translateX(-50%);
+    width:60%;
+    color:#d3d3d3;
+    letter-spacing:10px;
+    padding:100px 0;
+    text-align: center;
+    background-color: #3b446144;
+    box-shadow: 5px 0px 20px rgb(194, 194, 194);
+    transition:3s;
+  }
+h1:hover{
+    background-color: #0000006c;
+    box-shadow: 0px 0px 0px rgb(194, 194, 194);
+  
+}
+h3{
+    padding:15px;
+    color:#072644;
+    width:90%;
+    height:20%;
+    /* margin:0 #000000 ;  */
+    background-color: #abc5fd62; 
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  a{
+    text-decoration: none;
+    color : #adc4db;
+  }
+  .background{
+    background-image:url("IMAGE/鲸鱼1.jpeg");
+    padding:300px 100px  ;
+    background-size:cover;
+    background-position: 100%;
+    box-shadow: 5px 0px 50px;
+   
+  }
+  /* .background:hover{
+    background-image:url("IMAGE/鲸鱼1.jpeg");
+    padding:300px 100px  ;
+    background-size:cover;
+    transition:5s;
+  } */
+
+  .container2{
+    padding: 50px;
+    background-image:url("IMAGE/鲸鱼2.jpeg" );
+    background-size:cover;
+    color:#ffffff00;
+    border-radius:20px;
+    margin:100px 50px;
+    height:150px;
+    width:400px;
+    border-style:dashed;
+    /* box-shadow: 1px 0px 20px #3e577073; */
+    transition:2s;
+  }
+  .container2:hover{
+    color : #adc4db;
+    background-color: #3b446144;
+      
+  }
+
+  .container1{
+    padding: 50px;
+    background-image:url("IMAGE/鲸鱼4.jpeg" );
+    background-size:cover;
+    color:#ffffff00;
+    border-radius:20px;
+    margin:100px 50px;
+    height:150px;
+    width:auto;
+    /* border-style:dashed; */
+    /* box-shadow: 1px 0px 20px #3e577073; */
+    transition:2s;
+  }
+
+
+
+  .all{
+    display: flex;
+    flex:auto;
+    justify-content:space-between;
+    margin-top: 50px;
+  }
+  .all1{
+    display: flex;
+    flex:auto;
+    margin-top:100px;
+    /* margin-bottom: 50px; */
+    justify-content:space-between;
+  }
+
+  
+  .table1{
+    color:#adc4db;
+  }
+  
